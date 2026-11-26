@@ -1,0 +1,14 @@
+{
+  "cue_id": "sfx_amb_abyss_floor_01",
+  "file": "sfx_amb_abyss_floor_01.wav",
+  "channels": 2,
+  "sample_rate": 48000,
+  "bits_per_sample": 16,
+  "frames": 576000,
+  "loop_start_frame": 0,
+  "loop_end_frame_exclusive": 576000,
+  "peak_sample": 8024,
+  "sha256": "51d8eb838c2d599ff79ff9d2f6b74bd317f44e06fb7f4af76e7fccaf87112f4b",
+  "source": "Original procedural synthesis. No external recordings.",
+  "status": "prototype"
+}
