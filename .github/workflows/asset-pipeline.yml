@@ -1,0 +1,36 @@
+name: Asset pipeline calibration
+on:
+  pull_request:
+    paths:
+      - 'asset_pipeline/**'
+      - '.github/workflows/asset-pipeline.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  generate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install official Blender distribution
+        run: |
+          set -euo pipefail
+          version=4.5.0
+          archive=blender-$version-linux-x64.tar.xz
+          base=https://download.blender.org/release/Blender4.5
+          curl --fail --location --retry 3 "$base/$archive" -o "$archive"
+          curl --fail --location --retry 3 "$base/blender-$version.sha256" -o checksums
+          grep -E " [*]?$archive$" checksums | sha256sum --check --strict
+          tar -xf "$archive"
+          echo "$PWD/blender-$version-linux-x64" >> "$GITHUB_PATH"
+      - name: Generate and round-trip
+        run: blender --background --factory-startup --python-exit-code 1 --python asset_pipeline/generate.py -- output
+      - name: Verify artifacts
+        run: python3 asset_pipeline/verify.py output
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eidolon-calibration
+          path: output/
+          if-no-files-found: error
+          retention-days: 14

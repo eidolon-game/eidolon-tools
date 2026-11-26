@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "assets": [
+    {
+      "id": "pipeline_calibration_v1",
+      "category": "static_mesh",
+      "author": "EIDOLON Development Studio",
+      "license": "All rights reserved",
+      "source": "asset_pipeline/generate.py",
+      "format": "glb",
+      "path": "SM_Pipeline_Calibration.glb",
+      "checksum": null,
+      "dependencies": [],
+      "status": "specified",
+      "dimensions_m": [
+        1,
+        0.5,
+        1
+      ],
+      "legacy_ids": [
+        "asset.pipeline.calibration.v1"
+      ],
+      "dimensions_cm": [
+        100,
+        50,
+        100
+      ]
+    }
+  ]
+}
