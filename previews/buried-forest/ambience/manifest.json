@@ -1,0 +1,14 @@
+{
+  "cue_id": "sfx_amb_buried_forest",
+  "file": "sfx_amb_buried_forest.wav",
+  "channels": 2,
+  "sample_rate": 48000,
+  "bits_per_sample": 16,
+  "frames": 1056000,
+  "loop_start_frame": 0,
+  "loop_end_frame_exclusive": 1056000,
+  "peak_sample": 11655,
+  "sha256": "900cf55d3c56d3bd3bf01e8dcf45761d0780d9e58a7d7f567fb893167fca264f",
+  "source": "Original procedural synthesis. No external recordings.",
+  "status": "prototype"
+}
