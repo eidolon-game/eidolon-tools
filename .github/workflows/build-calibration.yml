@@ -30,14 +30,15 @@ jobs:
           set -euo pipefail
           sudo apt-get update
           apt-cache policy blender blender-data
-          sudo apt-get install -y blender=4.0.2+dfsg-1ubuntu8 blender-data=4.0.2+dfsg-1ubuntu8
+          sudo apt-get install -y blender=4.0.2+dfsg-1ubuntu8 blender-data=4.0.2+dfsg-1ubuntu8 python3-numpy
           test "$(dpkg-query -W -f='${Version}' blender)" = '4.0.2+dfsg-1ubuntu8'
           blender --version
+          blender --background --factory-startup --python-exit-code 1 --python-expr 'import numpy; print(numpy.__version__)'
       - run: blender --background --factory-startup --python-exit-code 1 --python asset_pipeline/generate.py -- output
       - run: python3 asset_pipeline/verify.py output
       - run: |
           git rev-parse HEAD > output/source-sha.txt
-          dpkg-query -W blender blender-data > output/package-versions.txt
+          dpkg-query -W blender blender-data python3-numpy > output/package-versions.txt
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: calibration-8daebceb-${{ github.run_id }}
