@@ -28,3 +28,9 @@ The Marrow Ram is a static EIDOLON prototype for the Broken Portico. The Blender
 - [Blender generator](../../scripts/creatures/make_marrow_ram.py)
 
 The Ram windup has an original 1.0 second paired hoof scrape prototype. Two renders match byte for byte. The cue uses mono PCM16 at 48 kHz and awaits Unreal listening and timing review. [WAV](marrow-ram/sfx_marrow_ram_hoof_telegraph.wav) · [Manifest](marrow-ram/manifest.json)
+
+The Rattle Millipede is an original static prototype for the Double-Ring Ambulatory. A Blender 4.3.2 round trip verified 220 mesh parts, 42,980 triangles, 18 dorsal segments, distinct raised and folded plates, UVs and materials. Bounds are about 108 × 374 × 54 cm. Rigging, collision and Unreal integration are pending.
+
+- [Rattle Millipede render](RattleMillipede.png)
+- [Rattle Millipede GLB](RattleMillipede.glb)
+- [Blender generator](../../scripts/creatures/make_rattle_millipede.py)
