@@ -1,0 +1,18 @@
+{
+  "cue_id": "sfx_mine_borer_charge",
+  "file": "sfx_mine_borer_charge.wav",
+  "channels": 1,
+  "sample_rate": 48000,
+  "bits_per_sample": 16,
+  "frames": 93120,
+  "timing_seconds": {
+    "jaw_drop": 0.024,
+    "charge_scrape": 0.265,
+    "grit_start": 0.79
+  },
+  "peak_sample": 16413,
+  "loop": false,
+  "sha256": "e531d8509f6da4fdb3bbf8cba23caf0f0bcdc6c2ee59888130c0ae1cc0421a6f",
+  "source": "Original procedural synthesis. No external recordings.",
+  "status": "prototype"
+}
