@@ -6,8 +6,11 @@ The floor-21 creature has a low digging wedge, broad forelimbs and articulated r
 
 Blender 4.3.2 reimported the 3.01 m model, its nine pivots and maps. From the matched rear view, 145 of 472 cuticle samples were visible with the plates closed and 247 were visible during recovery. Skeletal deformation, hit zones, animation, in-game material response and LODs remain to be tested in Unreal Engine 5.6.
 
+The Unreal source export splits the GLB into the body, head and two rear plates, with a pivot origin for each piece. Blender reimported all four files. The maximum sampled vertex error in the assembled recovery pose was 0.000642 mm. [Reassembled rest pose](mine-borer/assembled_front.png) · [Reassembled recovery pose](mine-borer/assembled_recovery.png)
+
 ```sh
 blender -b -t 4 --python-exit-code 1 -P scripts/creatures/make_mine_borer.py -- /path/to/output
+blender -b -t 4 --python-exit-code 1 -P scripts/creatures/export_mine_borer_parts.py -- /path/to/assembly --samples 24
 ```
 
 ## Audio
