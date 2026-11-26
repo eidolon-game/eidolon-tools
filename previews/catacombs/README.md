@@ -46,3 +46,5 @@ The Vault Pincer is an original static prototype for the Counterweight Vault. Bl
 - [Vault Pincer render](VaultPincer.png)
 - [Vault Pincer GLB](VaultPincer.glb)
 - [Blender generator](../../scripts/creatures/make_vault_pincer.py)
+
+The funerary urn is a reusable EIDOLON prop for the Urn Fork. A Blender 4.3.2 round trip verified five mesh parts and bounds of 55.2 × 55.2 × 79 cm. The basalt lid is separate from the body. Collision, LOD and Unreal import are pending. [Render](funerary-urn/valdris_funerary_urn.png) · [GLB](funerary-urn/valdris_funerary_urn.glb) · [Generator](../../environment/build_funerary_urn.py)
