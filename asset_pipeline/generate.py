@@ -5,6 +5,8 @@ from pathlib import Path
 from mathutils import Vector
 out = Path(sys.argv[sys.argv.index("--")+1]).resolve()
 out.mkdir(parents=True, exist_ok=True)
+if any(out.iterdir()):
+    raise RuntimeError('Output directory must be empty')
 bpy.ops.wm.read_factory_settings(use_empty=True)
 scene = bpy.context.scene
 scene.unit_settings.system = 'METRIC'
@@ -64,5 +66,5 @@ bpy.ops.import_scene.gltf(filepath=str(mesh))
 meshes = [o for o in bpy.context.scene.objects if o.type == 'MESH']
 assert len(meshes) == 1 and meshes[0].data.uv_layers
 assert all(abs(a-b)<1e-5 for a,b in zip(meshes[0].dimensions,(1,0.5,1)))
-report = {"id":"asset.pipeline.calibration.v1","status":"generated","blender":bpy.app.version_string,"dimensions_m":[1,0.5,1],"files":{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(out.iterdir()) if p.is_file()}}
+report = {"id":"pipeline_calibration_v1","status":"generated","blender":bpy.app.version_string,"dimensions_m":[1,0.5,1],"files":{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(out.iterdir()) if p.is_file()}}
 (out / "report.json").write_text(json.dumps(report,indent=2)+"\n")
