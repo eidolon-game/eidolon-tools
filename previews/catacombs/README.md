@@ -40,3 +40,9 @@ The Mortar Leech is an original static prototype for the Pillar Hall. A Blender 
 - [Mortar Leech render](MortarLeech.png)
 - [Mortar Leech GLB](MortarLeech.glb)
 - [Blender generator](../../scripts/creatures/make_mortar_leech.py)
+
+The Vault Pincer is an original static prototype for the Counterweight Vault. Blender 4.3.2 reimport verified 70 parts, 24,098 triangles, an asymmetric two-fingered claw, UVs and materials. Bounds are about 233 × 186 × 107 cm. Rigging, collision and Unreal integration are pending.
+
+- [Vault Pincer render](VaultPincer.png)
+- [Vault Pincer GLB](VaultPincer.glb)
+- [Blender generator](../../scripts/creatures/make_vault_pincer.py)
