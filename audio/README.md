@@ -1,0 +1,1 @@
+Run `python audio/synth_audio.py output/audio` and `python -m unittest discover -s audio -p 'test_*.py'`. Eight deterministic mono PCM prototypes; no recordings or final assets. Generated output not committed. Listening and UE import required.
