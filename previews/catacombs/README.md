@@ -34,3 +34,9 @@ The Rattle Millipede is an original static prototype for the Double-Ring Ambulat
 - [Rattle Millipede render](RattleMillipede.png)
 - [Rattle Millipede GLB](RattleMillipede.glb)
 - [Blender generator](../../scripts/creatures/make_rattle_millipede.py)
+
+The Mortar Leech is an original static prototype for the Pillar Hall. A Blender 4.3.2 round trip verified 41 mesh parts, 26,532 triangles, three hooks, a central filament, UVs and materials. Bounds are about 113 × 105 × 238 cm. Rigging, collision and Unreal integration are pending.
+
+- [Mortar Leech render](MortarLeech.png)
+- [Mortar Leech GLB](MortarLeech.glb)
+- [Blender generator](../../scripts/creatures/make_mortar_leech.py)
