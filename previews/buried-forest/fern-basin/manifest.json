@@ -1,0 +1,28 @@
+[
+  {
+    "cue_id": "sfx_fern_basin_handwheel_actuate",
+    "file": "sfx_fern_basin_handwheel_actuate.wav",
+    "channels": 1,
+    "sample_rate": 48000,
+    "bits_per_sample": 16,
+    "frames": 37440,
+    "peak_sample": 13539,
+    "loop": false,
+    "sha256": "67c8f5b4c5c8544e99599d2a873a23c88ce2f27513a924a8435f70c05095f850",
+    "source": "Original procedural synthesis. No external recordings.",
+    "status": "prototype"
+  },
+  {
+    "cue_id": "sfx_fern_basin_drain_release",
+    "file": "sfx_fern_basin_drain_release.wav",
+    "channels": 1,
+    "sample_rate": 48000,
+    "bits_per_sample": 16,
+    "frames": 74400,
+    "peak_sample": 8878,
+    "loop": false,
+    "sha256": "3a6a3932a9bdf9f0423868229e5987403e9b5200aae97f6923e991abf04417ea",
+    "source": "Original procedural synthesis. No external recordings.",
+    "status": "prototype"
+  }
+]
