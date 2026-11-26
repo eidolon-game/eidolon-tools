@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "source_commit": "b2680f52a4f1f23c10f0cf1677251a13f4de6c54",
+  "source_sha256": "fa00f9af3ce820bf8b727c9d4c82f1ba54edf791057f99dcd69b3a7b62971d71",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "trimesh": "4.11.1",
+    "matplotlib": "3.10.8"
+  },
+  "command": "python character_art/generate_garments.py OUTPUT_DIR",
+  "storage": "Generated in session container; binaries delivered in chat ZIP, not committed. Paths relative to output directory only.",
+  "axes": "glTF Y-up; dimensions in X,Y,Z order",
+  "assets": [
+    {
+      "id": "kael_recruit_vest",
+      "category": "garment_shell",
+      "author": "EIDOLON Development Studio",
+      "license": "All rights reserved",
+      "source": "character_art/generate_garments.py",
+      "format": "glb",
+      "path": "kael_recruit_vest.glb",
+      "checksum": "1009d8e94febb55797e4eedf0ff32c0cba9cb71f6a74aae077e32189ef878bea",
+      "dimensions_m": [
+        0.39,
+        0.537,
+        0.21
+      ],
+      "dimensions_cm": [
+        39,
+        53.7,
+        21
+      ],
+      "dependencies": [],
+      "vertices": 441,
+      "triangles": 768,
+      "status": "generated_prototype",
+      "registry_status": "proposed_not_registered"
+    },
+    {
+      "id": "darius_forge_apron",
+      "category": "garment_shell",
+      "author": "EIDOLON Development Studio",
+      "license": "All rights reserved",
+      "source": "character_art/generate_garments.py",
+      "format": "glb",
+      "path": "darius_forge_apron.glb",
+      "checksum": "7712ec0ca88a0c474ef3125fc0eb553c08018979647bac5042de4a55a113c267",
+      "dimensions_m": [
+        0.38,
+        0.8096,
+        0.12
+      ],
+      "dimensions_cm": [
+        38,
+        80.96,
+        12
+      ],
+      "dependencies": [],
+      "vertices": 441,
+      "triangles": 768,
+      "status": "generated_prototype",
+      "registry_status": "proposed_not_registered"
+    },
+    {
+      "id": "elara_healer_tunic",
+      "category": "garment_shell",
+      "author": "EIDOLON Development Studio",
+      "license": "All rights reserved",
+      "source": "character_art/generate_garments.py",
+      "format": "glb",
+      "path": "elara_healer_tunic.glb",
+      "checksum": "b3aabb46efea486fafd46b93d8dde4afe97992bcbdf6794d7fda4cab58820da4",
+      "dimensions_m": [
+        0.42,
+        0.7802,
+        0.2
+      ],
+      "dimensions_cm": [
+        42,
+        78.02,
+        20
+      ],
+      "dependencies": [],
+      "vertices": 441,
+      "triangles": 768,
+      "status": "generated_prototype",
+      "registry_status": "proposed_not_registered"
+    },
+    {
+      "id": "lyra_civilian_tunic",
+      "category": "garment_shell",
+      "author": "EIDOLON Development Studio",
+      "license": "All rights reserved",
+      "source": "character_art/generate_garments.py",
+      "format": "glb",
+      "path": "lyra_civilian_tunic.glb",
+      "checksum": "693beb3e7a8b573ff4eb13bd81b4fe59d6c00718ee8af56400640a6e0a7434ca",
+      "dimensions_m": [
+        0.36,
+        0.6683,
+        0.172
+      ],
+      "dimensions_cm": [
+        36,
+        66.83,
+        17.2
+      ],
+      "dependencies": [],
+      "vertices": 441,
+      "triangles": 768,
+      "status": "generated_prototype",
+      "registry_status": "proposed_not_registered"
+    },
+    {
+      "id": "noah_civilian_vest",
+      "category": "garment_shell",
+      "author": "EIDOLON Development Studio",
+      "license": "All rights reserved",
+      "source": "character_art/generate_garments.py",
+      "format": "glb",
+      "path": "noah_civilian_vest.glb",
+      "checksum": "28efdfd6dcc13d017b5881df0a31dbae609b8ec6dc19d72042b3c847bca144c0",
+      "dimensions_m": [
+        0.25,
+        0.2688,
+        0.156
+      ],
+      "dimensions_cm": [
+        25,
+        26.88,
+        15.6
+      ],
+      "dependencies": [],
+      "vertices": 441,
+      "triangles": 768,
+      "status": "generated_prototype",
+      "registry_status": "proposed_not_registered"
+    }
+  ],
+  "preview": {
+    "path": "garment_orthographic.png",
+    "checksum": "bc13952654855f9bed4f33573438cf011a39388b88ffe77d1914ecfaac779a5f",
+    "status": "projection_only"
+  },
+  "tests": {
+    "finite": "PASS",
+    "nondegenerate": "PASS",
+    "indices": "PASS",
+    "uv_count_and_range": "PASS",
+    "glb_reload": "PASS",
+    "bounds_roundtrip": "PASS",
+    "blender": "BLOCKED",
+    "unreal": "NOT RUN",
+    "rig": "NOT RUN",
+    "photoreal_review": "NOT RUN"
+  }
+}
