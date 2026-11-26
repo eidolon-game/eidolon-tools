@@ -1,0 +1,11 @@
+{
+  "cue_id": "music_valdris_family",
+  "file": "music_valdris_family.wav",
+  "sha256": "375d8f8dad5fc1e97b16b6d4f4aec51ecd13c88bfd58fd0791b887d314902a46",
+  "channels": 2,
+  "sample_rate": 48000,
+  "frames": 1008000,
+  "loop": false,
+  "source": "Original composition and procedural synthesis. No external recordings.",
+  "status": "prototype"
+}
