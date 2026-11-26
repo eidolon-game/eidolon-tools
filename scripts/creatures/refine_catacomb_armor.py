@@ -176,6 +176,7 @@ def add_ligament(name, points, radius, material):
             if vertex_id < last_ring + sides:
                 angle = (vertex_id % sides) * 2 * pi / sides
                 surface[loop_id].uv = (.5 + .45 * cos(angle), .5 + .45 * sin(angle))
+    return obj
 
 
 def tendon_groups(center, across, length, width, count, material, name):
@@ -364,7 +365,8 @@ def statistics(objects):
             "bounds_m": list(hi - lo), "floor_m": float(lo.z)}
 
 
-def render(path, objects, original_bounds, detail, samples, detail_focus=None):
+def render(path, objects, original_bounds, detail, samples, detail_focus=None,
+           camera_direction=(1.32, -1.72, .91)):
     lo, hi = original_bounds
     center = (lo + hi) * .5
     height = (hi - lo).z
@@ -396,7 +398,7 @@ def render(path, objects, original_bounds, detail, samples, detail_focus=None):
         obj.location = center + extent * Vector(direction)
         obj.rotation_euler = (center - obj.location).to_track_quat('-Z', 'Y').to_euler()
     target = center
-    camera_location = center + extent * Vector((1.32, -1.72, .91))
+    camera_location = center + extent * Vector(camera_direction)
     if detail:
         target = center + Vector((0, -.18 * extent, .05 * height))
     if detail and detail_focus is not None:

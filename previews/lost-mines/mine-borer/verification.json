@@ -1,0 +1,40 @@
+{
+  "asset": "MineBorer.glb",
+  "creature_id": "abyss_mine_borer",
+  "authored_with": "4.3.2",
+  "result_sha256": "6e19f9339f68cda01977c32df5e01d87d324a4773726450655e063716bd88351",
+  "exported_pivots": [
+    "MineBorer_Body",
+    "MineBorer_Head",
+    "MineBorer_Jaw",
+    "MineBorer_ForeLeft",
+    "MineBorer_ForeRight",
+    "MineBorer_HindLeft",
+    "MineBorer_HindRight",
+    "MineBorer_RearPlateLeft",
+    "MineBorer_RearPlateRight"
+  ],
+  "reimport": {
+    "mesh_objects": 60,
+    "triangles": 97916,
+    "bounds_m": [
+      4.181153297424316,
+      4.935793399810791,
+      3.007051467895508
+    ],
+    "floor_m": 0.0080117741599679
+  },
+  "normal_mapped_primitives_with_tangents": 78,
+  "embedded_images": 15,
+  "rear_motion_check": {
+    "plate_lift_m_left_right": [
+      0.39,
+      0.425
+    ],
+    "cuticle_test_points": 472,
+    "visible_closed": 145,
+    "visible_recovery": 247
+  },
+  "source": "Original EIDOLON meshes and procedural materials.",
+  "status": "static mesh study"
+}
