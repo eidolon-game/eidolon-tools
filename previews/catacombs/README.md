@@ -26,3 +26,5 @@ The Marrow Ram is a static EIDOLON prototype for the Broken Portico. The Blender
 - [Marrow Ram render](MarrowRam.png)
 - [Marrow Ram GLB](MarrowRam.glb)
 - [Blender generator](../../scripts/creatures/make_marrow_ram.py)
+
+The Ram windup has an original 1.0 second paired hoof scrape prototype. Two renders match byte for byte. The cue uses mono PCM16 at 48 kHz and awaits Unreal listening and timing review. [WAV](marrow-ram/sfx_marrow_ram_hoof_telegraph.wav) · [Manifest](marrow-ram/manifest.json)

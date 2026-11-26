@@ -1,0 +1,14 @@
+{
+  "cue_id": "sfx_marrow_ram_hoof_telegraph",
+  "file": "sfx_marrow_ram_hoof_telegraph.wav",
+  "channels": 1,
+  "sample_rate": 48000,
+  "bits_per_sample": 16,
+  "frames": 48000,
+  "peak_sample": 13741,
+  "windup_seconds": 1.15,
+  "loop": false,
+  "sha256": "21d355f837f8396c3d2a9256fa4e45aa562ff3d02640ee9823b2ee325604b715",
+  "source": "Original procedural synthesis. No external recordings.",
+  "status": "prototype"
+}
