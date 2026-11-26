@@ -7,7 +7,7 @@ from pathlib import Path
 
 def validate(data):
     errors = []
-    if data.get("schemaVersion") != 1 or data.get("units") != "meters":
+    if data.get("schemaVersion") != 2 or data.get("units") != "meters":
         errors.append("unsupported schema or units")
     seen = set()
     required = ("id", "name", "category", "height", "habitat", "silhouette",
@@ -16,7 +16,7 @@ def validate(data):
                 "status", "provenance", "canonStatus", "revealChapter")
     for e in data.get("entries", []):
         ident = e.get("id", "")
-        if not isinstance(ident, str) or not re.fullmatch(r"[a-z0-9_]+(?:\.[a-z0-9_]+)+", ident) or ident in seen:
+        if not isinstance(ident, str) or not re.fullmatch(r"[a-z0-9]+(?:_[a-z0-9]+)*", ident) or ident in seen:
             errors.append(f"invalid or duplicate id: {ident}")
         else:
             seen.add(ident)
@@ -30,6 +30,15 @@ def validate(data):
             errors.append(f"{ident}: giant outside canon scale")
         if e.get("status") == "specified" and e.get("asset") is not None:
             errors.append(f"{ident}: specification cannot claim asset")
+        if isinstance(h, (int, float)) and e.get("heightCm") != h * 100:
+            errors.append(f"{ident}: invalid centimeter conversion")
+        if e.get("dungeonId") not in (None, "abyss", "stair"):
+            errors.append(f"{ident}: invalid dungeon")
+        if e.get("floor") is not None and (type(e["floor"]) is not int or not 1 <= e["floor"] <= 100 or not e.get("dungeonId")):
+            errors.append(f"{ident}: invalid floor")
+    aliases = [e["legacyId"] for e in data.get("entries", []) if e.get("legacyId")]
+    if len(aliases) != len(set(aliases)):
+        errors.append("duplicate legacy alias")
     if not seen:
         errors.append("empty registry")
     return errors
