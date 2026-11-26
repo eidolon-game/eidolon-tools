@@ -1,0 +1,28 @@
+[
+  {
+    "cue_id": "sfx_hollow_trunk_pin_pickup",
+    "file": "sfx_hollow_trunk_pin_pickup.wav",
+    "channels": 1,
+    "sample_rate": 48000,
+    "bits_per_sample": 16,
+    "frames": 26880,
+    "peak_sample": 8543,
+    "loop": false,
+    "sha256": "c880d6c4ece07c97a43b741f890e6366e7272e4d8c1400006be9fe28c88e380d",
+    "source": "Original procedural synthesis. No external recordings.",
+    "status": "prototype"
+  },
+  {
+    "cue_id": "sfx_hollow_trunk_pin_seating",
+    "file": "sfx_hollow_trunk_pin_seating.wav",
+    "channels": 1,
+    "sample_rate": 48000,
+    "bits_per_sample": 16,
+    "frames": 30720,
+    "peak_sample": 10447,
+    "loop": false,
+    "sha256": "7f4b0731f910ae36f4c00b1cb89c8d9dc09de2edb80d01d8edefcb0016873b39",
+    "source": "Original procedural synthesis. No external recordings.",
+    "status": "prototype"
+  }
+]
