@@ -1,0 +1,26 @@
+{
+  "format": "PCM16",
+  "channels": 1,
+  "sample_rate": 48000,
+  "cues": [
+    {
+      "phase": "windup",
+      "file": "S_Borer_Windup.wav",
+      "frames": 14400,
+      "sha256": "b0d2cb39244b23e21cb81c276696f9e01bc053fb7758fab70eb6688f2b7c136e"
+    },
+    {
+      "phase": "charge",
+      "file": "S_Borer_Charge.wav",
+      "frames": 60960,
+      "sha256": "c956de09d6b55b771287c3344e64479cb877105594e91d6d2266be96dc5f9f19"
+    },
+    {
+      "phase": "impact",
+      "file": "S_Borer_Impact.wav",
+      "frames": 55200,
+      "sha256": "ee57a64a1ab6e52737397c47aa4dd3a604153d2777e7b082868a3abc64bfd640"
+    }
+  ],
+  "source": "EIDOLON original procedural synthesis from the Mine Borer charge study."
+}

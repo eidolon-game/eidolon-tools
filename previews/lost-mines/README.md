@@ -17,4 +17,6 @@ blender -b -t 4 --python-exit-code 1 -P scripts/creatures/export_mine_borer_part
 
 The Mine Borer charge study for Abyss floor 21 combines a jaw strike, a sustained scrape and falling grit. The original audio was synthesized in the project at 48 kHz, mono PCM16. Two independent renders produced identical WAVs and manifests. [WAV](mine-borer/sfx_mine_borer_charge.wav) · [Timing and checksum](mine-borer/manifest.json) · [Generator](../../scripts/audio/render_mine_borer_charge.py)
 
-The timestamps describe events in the audio take. Gameplay and animation timing will be set and tested with the creature's visible telegraph in Unreal Engine 5.6.
+The game uses three cues from the same design. The jaw strikes as the head drops, the scrape follows the Borer through the charge, and debris starts at contact. The charge channel fades over 70 ms at impact so the scrape can stop early. The 2.63-second preview demonstrates an early stop with the authored tracks. [Early-stop preview](mine-borer/audio/borer_short_charge_preview.wav) · [Phase WAVs and checksums](mine-borer/audio/manifest.json)
+
+Regenerate the cues with `python3 -B scripts/audio/render_mine_borer_charge.py /path/to/audio --gameplay`. The WAVs and manifest matched across two runs. Verify playback, falloff, occlusion and the early stop in Unreal Engine 5.6.
