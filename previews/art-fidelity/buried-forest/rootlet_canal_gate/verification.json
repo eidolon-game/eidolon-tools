@@ -1,0 +1,32 @@
+{
+  "asset": "rootlet_canal_gate",
+  "source_sha256": "8f536000e267ff05516a589dda21a0b6dc1f67d9e4741a429c4a9e9e99259900",
+  "result_sha256": "ef51688416d63548340e183a8246040a8bfffbaf40a6529658c6798b1204542a",
+  "original": {
+    "mesh_objects": 108,
+    "triangles": 11344,
+    "bounds_m": [
+      3.505282402038574,
+      1.036607265472412,
+      4.642086982727051
+    ],
+    "floor_m": -0.005499999970197678
+  },
+  "reimport": {
+    "mesh_objects": 108,
+    "triangles": 187216,
+    "bounds_m": [
+      3.505152702331543,
+      1.0353201627731323,
+      4.638142108917236
+    ],
+    "floor_m": -0.005499999970197678
+  },
+  "verified_transforms": 112,
+  "textured_primitives_with_tangents": 108,
+  "geometric_checks": {
+    "raised_gate_clearance_rays": 56,
+    "travel_m": 2.25
+  },
+  "blender": "4.3.2"
+}

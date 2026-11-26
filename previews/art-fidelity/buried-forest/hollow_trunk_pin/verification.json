@@ -1,0 +1,31 @@
+{
+  "asset": "hollow_trunk_pin",
+  "source_sha256": "0f2bfff16c77c7e46692956bf6dc3796bf0c77f57d3ae6f4bdaedddacb7da193",
+  "result_sha256": "a73d04c58eb21ad64c4b9eb920a8566b686b573538a913fa7c577512d6d4763f",
+  "original": {
+    "mesh_objects": 21,
+    "triangles": 5690,
+    "bounds_m": [
+      1.8288416862487793,
+      1.70223069190979,
+      1.991528034210205
+    ],
+    "floor_m": 0.0
+  },
+  "reimport": {
+    "mesh_objects": 21,
+    "triangles": 77880,
+    "bounds_m": [
+      1.8288416862487793,
+      1.70223069190979,
+      1.984048843383789
+    ],
+    "floor_m": 0.0
+  },
+  "verified_transforms": 23,
+  "textured_primitives_with_tangents": 21,
+  "geometric_checks": {
+    "withdrawal_samples": 30
+  },
+  "blender": "4.3.2"
+}

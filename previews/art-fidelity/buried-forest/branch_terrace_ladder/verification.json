@@ -1,0 +1,32 @@
+{
+  "asset": "branch_terrace_ladder",
+  "source_sha256": "11fd5665c277922f996c81ee414fc244db81b53c22162f65c09ce74552025ef2",
+  "result_sha256": "f89855d41ce46e6bafea980abbd627d1922b1f409e5991c9af43a9e15083af06",
+  "original": {
+    "mesh_objects": 43,
+    "triangles": 6000,
+    "bounds_m": [
+      1.9791369438171387,
+      1.2130261659622192,
+      3.978097915649414
+    ],
+    "floor_m": -3.3880980014801025
+  },
+  "reimport": {
+    "mesh_objects": 43,
+    "triangles": 127464,
+    "bounds_m": [
+      1.9791369438171387,
+      1.2129746675491333,
+      3.9780735969543457
+    ],
+    "floor_m": -3.3880820274353027
+  },
+  "verified_transforms": 46,
+  "textured_primitives_with_tangents": 43,
+  "geometric_checks": {
+    "full_width_rungs": 11,
+    "hinge_rotation_degrees": 30
+  },
+  "blender": "4.3.2"
+}

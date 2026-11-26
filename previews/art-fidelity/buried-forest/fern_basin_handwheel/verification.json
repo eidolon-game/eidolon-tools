@@ -1,0 +1,31 @@
+{
+  "asset": "fern_basin_handwheel",
+  "source_sha256": "a6afed99a9b2e7ffe0760f258636d4ad5db905042367b6aa098bb2ebcb85ee1b",
+  "result_sha256": "24284cb40059c66bbb5e7af65e48fafa60cf5a0f08c294596bc97a0f7513e688",
+  "original": {
+    "mesh_objects": 57,
+    "triangles": 13232,
+    "bounds_m": [
+      2.3999085426330566,
+      1.1460950374603271,
+      2.022817850112915
+    ],
+    "floor_m": -0.005118563771247864
+  },
+  "reimport": {
+    "mesh_objects": 57,
+    "triangles": 247052,
+    "bounds_m": [
+      2.3999085426330566,
+      1.1460950374603271,
+      2.022817850112915
+    ],
+    "floor_m": -0.005118563771247864
+  },
+  "verified_transforms": 59,
+  "textured_primitives_with_tangents": 58,
+  "geometric_checks": {
+    "grip_rotation_degrees": 90
+  },
+  "blender": "4.3.2"
+}

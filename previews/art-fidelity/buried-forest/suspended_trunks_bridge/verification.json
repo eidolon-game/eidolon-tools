@@ -1,0 +1,32 @@
+{
+  "asset": "suspended_trunks_bridge",
+  "source_sha256": "680fb20ccae0d06887a259ae45616eb57fa2143392e4da0e3be00d7807faa6c4",
+  "result_sha256": "019898a998d2b5b42c37828fb554b28faa7c4281a2f097dcbfaf2eef32e1da31",
+  "original": {
+    "mesh_objects": 113,
+    "triangles": 10508,
+    "bounds_m": [
+      5.390167236328125,
+      2.040973424911499,
+      2.3945746421813965
+    ],
+    "floor_m": -1.1975746154785156
+  },
+  "reimport": {
+    "mesh_objects": 113,
+    "triangles": 312840,
+    "bounds_m": [
+      5.389779090881348,
+      2.0319578647613525,
+      2.3945746421813965
+    ],
+    "floor_m": -1.1975746154785156
+  },
+  "verified_transforms": 115,
+  "textured_primitives_with_tangents": 116,
+  "geometric_checks": {
+    "deck_samples": 57,
+    "sweep_samples": 19
+  },
+  "blender": "4.3.2"
+}

@@ -1,0 +1,31 @@
+{
+  "asset": "oblique_clearing_overlook",
+  "source_sha256": "c5f763cd29d5cf058c84c99a83c2dd1b8c323f8c27b7cfb2487af13fb37b111d",
+  "result_sha256": "4c4dc258f516aa634f9b67b6ce4fdc2cf87945cea9e9edad9f9e5e69fb180af7",
+  "original": {
+    "mesh_objects": 16,
+    "triangles": 10278,
+    "bounds_m": [
+      5.405730724334717,
+      3.343789577484131,
+      1.7202354669570923
+    ],
+    "floor_m": 0.0
+  },
+  "reimport": {
+    "mesh_objects": 16,
+    "triangles": 103806,
+    "bounds_m": [
+      5.405689239501953,
+      3.3431355953216553,
+      1.7202354669570923
+    ],
+    "floor_m": 0.0
+  },
+  "verified_transforms": 16,
+  "textured_primitives_with_tangents": 44,
+  "geometric_checks": {
+    "level_tread_samples": 35
+  },
+  "blender": "4.3.2"
+}

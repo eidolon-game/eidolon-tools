@@ -13,7 +13,7 @@ The generator embeds base color, tangent normals and packed roughness and metaln
 
 The geometry reworks are authored independently. Their GLBs keep the original size and functional transforms where applicable. Blender 4.3.2 reimported the static exports. Rig, animation, collision, LODs and visual acceptance in Unreal Engine 5.6 are pending.
 
-The [Catacombs creature gallery](catacombs/README.md) adds eight revised models and 32 matched views. Together with the earlier models below, this brings the geometry pass to 15 of the 22 original assets.
+The [Catacombs creature gallery](catacombs/README.md) contains eight revised models and 32 matched views. The [Buried Forest mechanism gallery](buried-forest/README.md) contains seven reworked landmarks and mechanisms. Together with the earlier models below, they cover all 22 original GLBs.
 
 | Asset | Render | 3D model |
 | --- | --- | --- |

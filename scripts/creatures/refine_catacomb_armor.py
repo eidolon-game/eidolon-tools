@@ -364,7 +364,7 @@ def statistics(objects):
             "bounds_m": list(hi - lo), "floor_m": float(lo.z)}
 
 
-def render(path, objects, original_bounds, detail, samples, leech=False):
+def render(path, objects, original_bounds, detail, samples, detail_focus=None):
     lo, hi = original_bounds
     center = (lo + hi) * .5
     height = (hi - lo).z
@@ -399,11 +399,9 @@ def render(path, objects, original_bounds, detail, samples, leech=False):
     camera_location = center + extent * Vector((1.32, -1.72, .91))
     if detail:
         target = center + Vector((0, -.18 * extent, .05 * height))
-    # Include the upper hooks and the feeding collar on the taller leech.
-    if detail and leech:
-        rise = Vector((0, 0, .24 * height))
-        target = center + rise
-        camera_location += rise
+    if detail and detail_focus is not None:
+        target = Vector(detail_focus)
+        camera_location += target - center
     bpy.ops.object.camera_add(location=camera_location)
     camera = bpy.context.object
     camera.rotation_euler = (target - camera.location).to_track_quat('-Z', 'Y').to_euler()
@@ -423,12 +421,17 @@ def build(name, input_catalog, output, render_samples, refine=None):
     reference = list(import_glb(original).values())
     reference_bounds = bounds(reference)
     source_stats = statistics(reference)
+    detail_focus = None
+    if name == 'MortarLeech':
+        lo, hi = reference_bounds
+        # Include the upper hooks and feeding collar in the detail view.
+        detail_focus = (lo + hi) * .5 + Vector((0, 0, .24 * (hi.z - lo.z)))
     destination = output / name
     destination.mkdir(parents=True, exist_ok=True)
     if render_samples:
         render(destination / 'before.png', reference, reference_bounds, False, render_samples)
         render(destination / 'before_detail.png', reference, reference_bounds, True, render_samples,
-               leech=name == 'MortarLeech')
+               detail_focus=detail_focus)
     reset()
     objects = import_glb(input_catalog / 'catacombs' / original.name)
     (refine or RECIPES[name])(objects)
@@ -449,7 +452,7 @@ def build(name, input_catalog, output, render_samples, refine=None):
     if render_samples:
         render(destination / 'after.png', exported, reference_bounds, False, render_samples)
         render(destination / 'after_detail.png', exported, reference_bounds, True, render_samples,
-               leech=name == 'MortarLeech')
+               detail_focus=detail_focus)
     report = {'asset': name, 'source_sha256': sha256(original.read_bytes()).hexdigest(),
               'result_sha256': sha256(path.read_bytes()).hexdigest(), 'original': source_stats,
               'reimport': stats, 'blender': bpy.app.version_string}

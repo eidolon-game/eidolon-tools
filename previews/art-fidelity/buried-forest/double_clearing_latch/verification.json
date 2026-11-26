@@ -1,0 +1,32 @@
+{
+  "asset": "double_clearing_latch",
+  "source_sha256": "4b829a18bb39845ea3f1c10df51d58454fe8ddc53a1c1345881fa72a66048c42",
+  "result_sha256": "bf2e02d089440d90e26f235af4304d771e781a5562cf75f17325c2028fa49252",
+  "original": {
+    "mesh_objects": 43,
+    "triangles": 5620,
+    "bounds_m": [
+      3.2396605014801025,
+      1.1045130491256714,
+      2.817138910293579
+    ],
+    "floor_m": -0.011336147785186768
+  },
+  "reimport": {
+    "mesh_objects": 43,
+    "triangles": 154292,
+    "bounds_m": [
+      3.237596273422241,
+      1.1041173934936523,
+      2.814314365386963
+    ],
+    "floor_m": -0.011336147785186768
+  },
+  "verified_transforms": 46,
+  "textured_primitives_with_tangents": 43,
+  "geometric_checks": {
+    "detents_checked": 2,
+    "retracted_sweep_samples": 38
+  },
+  "blender": "4.3.2"
+}
