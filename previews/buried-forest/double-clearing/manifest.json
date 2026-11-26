@@ -1,0 +1,28 @@
+[
+  {
+    "cue_id": "sfx_double_clearing_latch_held",
+    "file": "sfx_double_clearing_latch_held.wav",
+    "channels": 1,
+    "sample_rate": 48000,
+    "bits_per_sample": 16,
+    "frames": 23040,
+    "peak_sample": 10494,
+    "loop": false,
+    "sha256": "ccfb8516c17752276281534a3d27faf148776589127b607a530a359a263008da",
+    "source": "Original procedural synthesis. No external recordings.",
+    "status": "prototype"
+  },
+  {
+    "cue_id": "sfx_double_clearing_latch_open",
+    "file": "sfx_double_clearing_latch_open.wav",
+    "channels": 1,
+    "sample_rate": 48000,
+    "bits_per_sample": 16,
+    "frames": 59520,
+    "peak_sample": 11690,
+    "loop": false,
+    "sha256": "ecbac48266d236f24c25effcfe2a1e3c296a99e158c12a0bffc21380b11660a5",
+    "source": "Original procedural synthesis. No external recordings.",
+    "status": "prototype"
+  }
+]
