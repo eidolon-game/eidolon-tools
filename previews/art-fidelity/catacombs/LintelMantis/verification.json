@@ -1,0 +1,28 @@
+{
+  "asset": "LintelMantis",
+  "source_sha256": "80f1e8c78442757051d1e6d9ccf2fdd68dcb9797371454b41df0fb25e2dbdaa5",
+  "result_sha256": "7196890fc5d8694c1b3b28cc37d07012afe0ae04828211e01ea2dde5c9ab6f5b",
+  "original": {
+    "mesh_objects": 72,
+    "triangles": 13060,
+    "bounds_m": [
+      1.5606834888458252,
+      1.3596556186676025,
+      1.8861597776412964
+    ],
+    "floor_m": -0.00933429878205061
+  },
+  "reimport": {
+    "mesh_objects": 84,
+    "triangles": 56136,
+    "bounds_m": [
+      1.5606834888458252,
+      1.3596556186676025,
+      1.8894544839859009
+    ],
+    "floor_m": -0.009334297850728035,
+    "embedded_images": 14,
+    "textured_primitives_with_tangents": 80
+  },
+  "blender": "4.3.2"
+}

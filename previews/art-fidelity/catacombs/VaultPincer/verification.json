@@ -1,0 +1,28 @@
+{
+  "asset": "VaultPincer",
+  "source_sha256": "b962ebeb52e2e17c91de106fb5b9878f964ac9a76d4fcd4cd4e28b36f0e7b8a6",
+  "result_sha256": "0d4cae10bc69e3ddf3741a4fdfa9dfdbe21515b97a4ecf57d0f49d47542500fd",
+  "original": {
+    "mesh_objects": 70,
+    "triangles": 24098,
+    "bounds_m": [
+      2.391345500946045,
+      1.875708818435669,
+      1.096068024635315
+    ],
+    "floor_m": -0.014294094406068325
+  },
+  "reimport": {
+    "mesh_objects": 82,
+    "triangles": 63148,
+    "bounds_m": [
+      2.3863706588745117,
+      1.8866970539093018,
+      1.1007691621780396
+    ],
+    "floor_m": -0.014294096268713474,
+    "embedded_images": 9,
+    "textured_primitives_with_tangents": 84
+  },
+  "blender": "4.3.2"
+}

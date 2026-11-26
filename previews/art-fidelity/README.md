@@ -13,6 +13,8 @@ The generator embeds base color, tangent normals and packed roughness and metaln
 
 The geometry reworks are authored independently. Their GLBs keep the original size and functional transforms where applicable. Blender 4.3.2 reimported the static exports. Rig, animation, collision, LODs and visual acceptance in Unreal Engine 5.6 are pending.
 
+The [Catacombs creature gallery](catacombs/README.md) adds eight revised models and 32 matched views. Together with the earlier models below, this brings the geometry pass to 15 of the 22 original assets.
+
 | Asset | Render | 3D model |
 | --- | --- | --- |
 | Root Stalker | [Before](stalker/RootStalker_reference_close.png) · [After](stalker/RootStalker_reworked_close.png) · [Whole](stalker/RootStalker_reworked_wide.png) | [GLB](stalker/RootStalker_reworked.glb) |

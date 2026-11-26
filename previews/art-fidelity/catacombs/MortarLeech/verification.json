@@ -1,0 +1,28 @@
+{
+  "asset": "MortarLeech",
+  "source_sha256": "5e739754eeac7e73be1527fa943293d86fd9145d34fabf739a080dd93b0860f1",
+  "result_sha256": "796479daf1aa1851e56342843f786e3694f48df3945066c6a07068d003382880",
+  "original": {
+    "mesh_objects": 41,
+    "triangles": 26532,
+    "bounds_m": [
+      1.125,
+      1.053999900817871,
+      2.4270875453948975
+    ],
+    "floor_m": -0.06416139006614685
+  },
+  "reimport": {
+    "mesh_objects": 60,
+    "triangles": 122180,
+    "bounds_m": [
+      1.125,
+      1.053999900817871,
+      2.428494930267334
+    ],
+    "floor_m": -0.06556858122348785,
+    "embedded_images": 9,
+    "textured_primitives_with_tangents": 60
+  },
+  "blender": "4.3.2"
+}

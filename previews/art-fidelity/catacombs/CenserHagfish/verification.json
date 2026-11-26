@@ -1,0 +1,28 @@
+{
+  "asset": "CenserHagfish",
+  "source_sha256": "38011db8dee49e343bd85b5e7ed033f4a709ccd8d48733adc24fb6868761f220",
+  "result_sha256": "0edea9596198daea879569c2aaaa42593021eae3e0f9d8732349f11b948e424b",
+  "original": {
+    "mesh_objects": 41,
+    "triangles": 27312,
+    "bounds_m": [
+      0.85589998960495,
+      2.1497817039489746,
+      0.6891545057296753
+    ],
+    "floor_m": 0.03899998962879181
+  },
+  "reimport": {
+    "mesh_objects": 86,
+    "triangles": 81288,
+    "bounds_m": [
+      0.8597241640090942,
+      2.15287709236145,
+      0.6907250881195068
+    ],
+    "floor_m": 0.03899998962879181,
+    "embedded_images": 8,
+    "textured_primitives_with_tangents": 89
+  },
+  "blender": "4.3.2"
+}

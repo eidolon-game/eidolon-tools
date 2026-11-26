@@ -1,0 +1,28 @@
+{
+  "asset": "Rootclaw",
+  "source_sha256": "df979e7cf4c8b1ee013ab0a0bcadac77070ae4299f7be32174a29c9c304d47d8",
+  "result_sha256": "4b58a18a98d7302a2454fffe12ea034f86032c58209674154c9c06b441b4b55e",
+  "original": {
+    "mesh_objects": 129,
+    "triangles": 38500,
+    "bounds_m": [
+      4.543181419372559,
+      3.2898576259613037,
+      2.632519245147705
+    ],
+    "floor_m": -0.016812730580568314
+  },
+  "reimport": {
+    "mesh_objects": 137,
+    "triangles": 43610,
+    "bounds_m": [
+      4.543181419372559,
+      3.289857864379883,
+      2.632519245147705
+    ],
+    "floor_m": -0.016812730580568314,
+    "embedded_images": 12,
+    "textured_primitives_with_tangents": 149
+  },
+  "blender": "4.3.2"
+}

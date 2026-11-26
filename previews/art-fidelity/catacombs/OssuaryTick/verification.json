@@ -1,0 +1,28 @@
+{
+  "asset": "OssuaryTick",
+  "source_sha256": "d2a10d9191f57d4e306828377fb2545c54167f910c2b24b05f224a04b728afee",
+  "result_sha256": "e8deb802bebcf924335231f8c27f78f864c766d4d6450777e398789eab3d3055",
+  "original": {
+    "mesh_objects": 54,
+    "triangles": 15120,
+    "bounds_m": [
+      0.7803617715835571,
+      0.786215603351593,
+      0.4318707287311554
+    ],
+    "floor_m": -0.006032996345311403
+  },
+  "reimport": {
+    "mesh_objects": 86,
+    "triangles": 28224,
+    "bounds_m": [
+      0.7803618311882019,
+      0.786215603351593,
+      0.4321324825286865
+    ],
+    "floor_m": -0.006032993551343679,
+    "embedded_images": 10,
+    "textured_primitives_with_tangents": 84
+  },
+  "blender": "4.3.2"
+}

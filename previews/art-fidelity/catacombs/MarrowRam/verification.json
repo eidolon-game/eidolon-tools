@@ -1,0 +1,28 @@
+{
+  "asset": "MarrowRam",
+  "source_sha256": "d140a4a5f777e486d5b8f9a760b8d9576dd04d4915411af4981350ee5dd35481",
+  "result_sha256": "321064cef1a726c0d17590aacd8dcac25f34617e6724af5bcc7192fcb77fbdbf",
+  "original": {
+    "mesh_objects": 61,
+    "triangles": 32460,
+    "bounds_m": [
+      1.8973733186721802,
+      2.745123863220215,
+      1.575862169265747
+    ],
+    "floor_m": 0.005000002682209015
+  },
+  "reimport": {
+    "mesh_objects": 85,
+    "triangles": 93548,
+    "bounds_m": [
+      1.8973733186721802,
+      2.768665313720703,
+      1.5776437520980835
+    ],
+    "floor_m": 0.005000002682209015,
+    "embedded_images": 6,
+    "textured_primitives_with_tangents": 84
+  },
+  "blender": "4.3.2"
+}

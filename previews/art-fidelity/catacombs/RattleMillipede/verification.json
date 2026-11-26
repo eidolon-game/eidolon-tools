@@ -1,0 +1,28 @@
+{
+  "asset": "RattleMillipede",
+  "source_sha256": "45dd5a3f4ea539a662943d0cb7c049577013e49c693a8ea4a27f82294dd98e44",
+  "result_sha256": "234f7cbb16c4a1138e3820b0d1eeff340d6bc46b660c240709c3c64387c65032",
+  "original": {
+    "mesh_objects": 220,
+    "triangles": 42980,
+    "bounds_m": [
+      1.0788846015930176,
+      3.7391862869262695,
+      0.5378832221031189
+    ],
+    "floor_m": -0.00147922127507627
+  },
+  "reimport": {
+    "mesh_objects": 228,
+    "triangles": 71516,
+    "bounds_m": [
+      1.07987642288208,
+      3.7391862869262695,
+      0.537386953830719
+    ],
+    "floor_m": -0.0014792210422456264,
+    "embedded_images": 12,
+    "textured_primitives_with_tangents": 222
+  },
+  "blender": "4.3.2"
+}
