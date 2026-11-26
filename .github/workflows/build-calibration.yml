@@ -1,0 +1,47 @@
+name: Department 18 calibration reproduction
+on:
+  push:
+    branches: ['feature/build-engineering', 'integration/studio']
+    paths: ['.github/workflows/build-calibration.yml']
+  pull_request:
+    paths: ['.github/workflows/build-calibration.yml']
+permissions:
+  contents: read
+jobs:
+  registry:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: 8daebceb7667808737930eb925878445d80d4371
+          persist-credentials: false
+      - run: python3 -m unittest discover -s asset_pipeline -p 'test_*.py'
+  generate:
+    needs: registry
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: 8daebceb7667808737930eb925878445d80d4371
+          persist-credentials: false
+      - name: Install authenticated Ubuntu package
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          apt-cache policy blender blender-data
+          sudo apt-get install -y blender=4.0.2+dfsg-1ubuntu8 blender-data=4.0.2+dfsg-1ubuntu8 python3-numpy
+          test "$(dpkg-query -W -f='${Version}' blender)" = '4.0.2+dfsg-1ubuntu8'
+          blender --version
+          blender --background --factory-startup --python-exit-code 1 --python-expr 'import numpy; print(numpy.__version__)'
+      - run: blender --background --factory-startup --python-exit-code 1 --python asset_pipeline/generate.py -- output
+      - run: python3 asset_pipeline/verify.py output
+      - run: |
+          git rev-parse HEAD > output/source-sha.txt
+          dpkg-query -W blender blender-data python3-numpy > output/package-versions.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: calibration-8daebceb-${{ github.run_id }}
+          path: output/
+          if-no-files-found: error
+          retention-days: 14
