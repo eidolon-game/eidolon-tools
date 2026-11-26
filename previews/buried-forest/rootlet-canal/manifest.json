@@ -1,0 +1,13 @@
+{
+  "cue_id": "sfx_rootlet_canal_counterweight_gate",
+  "file": "sfx_rootlet_canal_counterweight_gate.wav",
+  "channels": 1,
+  "sample_rate": 48000,
+  "bits_per_sample": 16,
+  "frames": 128640,
+  "peak_sample": 15264,
+  "loop": false,
+  "sha256": "6b64b53955b22130f1f5020a8f48b69b8833475c5e35131f8e94f760cc1014eb",
+  "source": "Original procedural synthesis. No external recordings.",
+  "status": "prototype"
+}
