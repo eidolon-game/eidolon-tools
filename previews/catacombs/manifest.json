@@ -1,0 +1,13 @@
+{
+  "cue_id": "sfx_ossuary_tick_scrape_telegraph",
+  "file": "sfx_ossuary_tick_scrape_telegraph.wav",
+  "channels": 1,
+  "sample_rate": 48000,
+  "bits_per_sample": 16,
+  "frames": 29760,
+  "peak_sample": 11530,
+  "loop": false,
+  "sha256": "b07ebb4931b1f8b3ab12674df90d72b36055ac317eeb138e3feb6862460b5e7a",
+  "source": "Original procedural synthesis. No external recordings.",
+  "status": "prototype"
+}
