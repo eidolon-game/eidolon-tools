@@ -11,7 +11,7 @@ def floors(data):
     if len(ids) != 200 or len(set(ids)) != 200:
         errors.append("floor count or identity")
     for dungeon in ("abyss", "stair"):
-        group = sorted((r for r in rows if r["dungeon"] == dungeon), key=lambda r:r["index"])
+        group = sorted((r for r in rows if ({"eternity": "stair"}.get(r["dungeon"], r["dungeon"])) == dungeon), key=lambda r:r["index"])
         if [r["index"] for r in group] != list(range(1,101)):
             errors.append(dungeon + ": sequence")
         for i,r in enumerate(group):
