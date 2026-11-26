@@ -25,7 +25,7 @@ def main(output):
         for y in (-17,17):
             ellipsoid(f"PROXY_Leg_{x}_{y}", (x,y,55), (9,9,55))
     bpy.context.scene["asset_status"] = "graybox_unverified"
-    bpy.context.scene["creature_id"] = "titan.roaming"
+    bpy.context.scene["creature_id"] = "titan_roaming"
     output.parent.mkdir(parents=True, exist_ok=True)
     bpy.ops.wm.save_as_mainfile(filepath=str(output))
 
