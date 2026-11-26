@@ -14,3 +14,9 @@ The Lintel Mantis is an original static EIDOLON prototype for floor 3. The Blend
 - [Lintel Mantis render](LintelMantis.png)
 - [Lintel Mantis GLB](LintelMantis.glb)
 - [Blender generator](../../scripts/creatures/make_lintel_mantis.py)
+
+The Censer Hagfish is an original static prototype for the Drainage Canals. A Blender 4.3.2 round trip verified 41 mesh parts, 27,312 triangles, UVs, materials and bounds of approximately 86 × 215 × 69 cm.
+
+- [Censer Hagfish render](CenserHagfish.png)
+- [Censer Hagfish GLB](CenserHagfish.glb)
+- [Blender generator](../../scripts/creatures/make_censer_hagfish.py)
