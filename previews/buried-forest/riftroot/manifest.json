@@ -1,0 +1,35 @@
+[
+  {
+    "cue_id": "sfx_riftroot_rock_wedge",
+    "file": "sfx_riftroot_rock_wedge.wav",
+    "channels": 1,
+    "sample_rate": 48000,
+    "bits_per_sample": 16,
+    "frames": 87360,
+    "timing_seconds": {
+      "axis_lock": 0.65,
+      "impact": 1.05
+    },
+    "peak_sample": 22319,
+    "sha256": "0d3581a7fe96f1e759c5fc651da50e5032045f7a3d7d9eeb9fb64788976a585c",
+    "loop": false,
+    "source": "Original procedural synthesis. No external recordings.",
+    "status": "prototype"
+  },
+  {
+    "cue_id": "sfx_riftroot_root_retraction",
+    "file": "sfx_riftroot_root_retraction.wav",
+    "channels": 1,
+    "sample_rate": 48000,
+    "bits_per_sample": 16,
+    "frames": 83520,
+    "timing_seconds": {
+      "retraction": 1.07
+    },
+    "peak_sample": 11201,
+    "sha256": "7b3549639c4fb249bf7b0624e9e1125a84406f61766c8794a5ca71ef98c2e894",
+    "loop": false,
+    "source": "Original procedural synthesis. No external recordings.",
+    "status": "prototype"
+  }
+]

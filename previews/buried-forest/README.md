@@ -17,6 +17,10 @@
 | Suspended bridge rotation cue | [WAV](suspended-trunks/sfx_suspended_bridge_rotation.wav) · [Manifest](suspended-trunks/manifest.json) | [Audio generator](../../scripts/audio/render_suspended_bridge.py) |
 | Double Clearing latch | [First detent](double-clearing/double_clearing_latch.png) · [Second detent](double-clearing/double_clearing_latch_detent_b.png) · [GLB](double-clearing/double_clearing_latch.glb) | [Blender generator](../../environment/build_double_clearing_latch.py) |
 | Double Clearing latch cues | [Catch](double-clearing/sfx_double_clearing_latch_held.wav) · [Opening](double-clearing/sfx_double_clearing_latch_open.wav) · [Manifest](double-clearing/manifest.json) | [Audio generator](../../scripts/audio/render_double_clearing_latch.py) |
+| Vein Overlook balcony | [Render](vein-overlook/vein_overlook_balcony.png) · [GLB](vein-overlook/vein_overlook_balcony.glb) | [Blender generator](../../environment/build_vein_overlook_balcony.py) |
+| Vein Overlook ambience | [WAV](vein-overlook/sfx_amb_vein_overlook.wav) · [Manifest](vein-overlook/manifest.json) | [Audio generator](../../scripts/audio/render_vein_overlook_ambience.py) |
+| Riftroot Tangle | [Render](riftroot/riftroot_tangle.png) · [Raised wedge](riftroot/riftroot_tangle_wedge_raised.png) · [GLB](riftroot/riftroot_tangle.glb) | [Blender generator](../../scripts/creatures/make_riftroot_tangle.py) |
+| Riftroot Tangle cues | [Rock wedge](riftroot/sfx_riftroot_rock_wedge.wav) · [Root draw](riftroot/sfx_riftroot_root_retraction.wav) · [Manifest](riftroot/manifest.json) | [Audio generator](../../scripts/audio/render_riftroot_cues.py) |
 
 The Root Stalker stands approximately 2.94 m tall. Its layered bark, hooked limbs and exposed joint membranes are visible in the render. The arch is approximately 2.96 m wide and 4.14 m tall with a clear test opening 1.40 m wide and 2.40 m high. Both GLBs were imported back into Blender 4.3.2 to check geometry and scale. The meshes are static and await Unreal import, collision and gameplay calibration. The creature also needs a rig and animation.
 
@@ -37,3 +41,7 @@ The Rootlet Canal grate and stone weight are independent groups with opposite ve
 The Suspended Trunks bridge has a centered Z pivot and a fixed stone islet. Blender verified 113 meshes, a clear 1.30 m prototype lane and clearance from the islet at 19 quarter-turn samples. This is a 5.39 m prop study. Widen and extend the bank spans to fit the authored floor before validating clearance in Unreal. The original 2.58-second rotation cue ends with a low latch seat and regenerates to identical mono PCM16 at 48 kHz.
 
 The Double Clearing latch has independent handle and index tooth groups. Blender 4.3.2 reimported 43 valid meshes. Both seated detents and 38 sampled transit angles cleared the frame with the tooth retracted 7 cm. The first-detent catch and second-detent opening cues are original mono PCM16 at 48 kHz and regenerate byte for byte. Verify the pivot, animation and cue routing in Unreal.
+
+Vein Overlook reimported as 37 valid meshes with a dry 3 m square tread confirmed by 169 sample rays. The original 21-second ambience is stereo PCM16 at 48 kHz. Independent renders matched byte for byte and seam samples remained within the take's typical changes.
+
+Riftroot Tangle reimported with 59 meshes. The neutral form measures approximately 4.24 × 4.97 × 3.07 m, with independent limb and wedge pivots. Both original combat cues are mono PCM16 at 48 kHz and regenerate byte for byte. The meshes and audio await Unreal import, rigging and combat cue routing.

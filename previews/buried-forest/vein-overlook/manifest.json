@@ -1,0 +1,14 @@
+{
+  "cue_id": "sfx_amb_vein_overlook",
+  "file": "sfx_amb_vein_overlook.wav",
+  "channels": 2,
+  "sample_rate": 48000,
+  "bits_per_sample": 16,
+  "frames": 1008000,
+  "loop_start_frame": 0,
+  "loop_end_frame_exclusive": 1008000,
+  "peak_sample": 2577,
+  "sha256": "bccc351ac9343f773fe924bf2661cb607df14c6c50c96c1e919077e5cb9fc943",
+  "source": "Original procedural synthesis. No external recordings.",
+  "status": "prototype"
+}
