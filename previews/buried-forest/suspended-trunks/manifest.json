@@ -1,0 +1,14 @@
+{
+  "cue_id": "sfx_suspended_bridge_rotation",
+  "file": "sfx_suspended_bridge_rotation.wav",
+  "channels": 1,
+  "sample_rate": 48000,
+  "bits_per_sample": 16,
+  "frames": 123840,
+  "latch_seconds": 1.88,
+  "peak_sample": 12662,
+  "loop": false,
+  "sha256": "b75532271defd57752a1375e140f40547000ae3ca34eecfb941926958fb3e600",
+  "source": "Original procedural synthesis. No external recordings.",
+  "status": "prototype"
+}

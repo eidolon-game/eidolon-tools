@@ -13,6 +13,8 @@
 | Hollow Trunk pin cues | [Pickup](hollow-trunk/sfx_hollow_trunk_pin_pickup.wav) · [Seating](hollow-trunk/sfx_hollow_trunk_pin_seating.wav) · [Manifest](hollow-trunk/manifest.json) | [Audio generator](../../scripts/audio/render_hollow_trunk_cues.py) |
 | Rootlet Canal gate and counterweight | [Render](rootlet-canal/rootlet_canal_gate.png) · [GLB](rootlet-canal/rootlet_canal_gate.glb) | [Blender generator](../../environment/build_rootlet_canal_gate.py) |
 | Rootlet Canal release cue | [WAV](rootlet-canal/sfx_rootlet_canal_counterweight_gate.wav) · [Manifest](rootlet-canal/manifest.json) | [Audio generator](../../scripts/audio/render_rootlet_gate.py) |
+| Suspended Trunks bridge | [Rest pose](suspended-trunks/suspended_trunks_bridge.png) · [Quarter-turn](suspended-trunks/suspended_trunks_bridge_turned.png) · [GLB](suspended-trunks/suspended_trunks_bridge.glb) | [Blender generator](../../environment/build_suspended_trunks_bridge.py) |
+| Suspended bridge rotation cue | [WAV](suspended-trunks/sfx_suspended_bridge_rotation.wav) · [Manifest](suspended-trunks/manifest.json) | [Audio generator](../../scripts/audio/render_suspended_bridge.py) |
 
 The Root Stalker stands approximately 2.94 m tall. Its layered bark, hooked limbs and exposed joint membranes are visible in the render. The arch is approximately 2.96 m wide and 4.14 m tall with a clear test opening 1.40 m wide and 2.40 m high. Both GLBs were imported back into Blender 4.3.2 to check geometry and scale. The meshes are static and await Unreal import, collision and gameplay calibration. The creature also needs a rig and animation.
 
@@ -29,3 +31,5 @@ The Fern Basin handwheel is 0.688 m in diameter. Blender 4.3.2 reimported 57 mes
 The Hollow Trunk pin has an independent transform along Blender's local −Y axis. The GLB shows the seated pose and the render shows the withdrawn pose. After Blender reimport, the pin cleared the socket at 30 sampled positions along 0.58 m of travel. The two original mono PCM16 cues cover pickup and seating. The GLB and cue imports and bindings are pending in Unreal.
 
 The Rootlet Canal grate and stone weight are independent groups with opposite vertical travel. Blender 4.3.2 reimported 108 meshes. With the grate raised, 56 rays verified clearance in a 1.56 × 2.13 m central opening. The original 2.68-second release cue combines chain rattle, iron impact and room resonance. It regenerates to identical mono PCM16 at 48 kHz. Set up the gate, rope, collision and cue playback in Unreal.
+
+The Suspended Trunks bridge has a centered Z pivot and a fixed stone islet. Blender verified 113 meshes, a clear 1.30 m prototype lane and clearance from the islet at 19 quarter-turn samples. This is a 5.39 m prop study. Widen and extend the bank spans to fit the authored floor before validating clearance in Unreal. The original 2.58-second rotation cue ends with a low latch seat and regenerates to identical mono PCM16 at 48 kHz.
