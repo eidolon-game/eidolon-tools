@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "python": "3.13.5",
+  "source_sha256": "8cba8febf7e84176bea6554f61e9f0105cc54f418aa062123bd091b0d44a1203",
+  "test_sha256": "a231db1ec66884357310c09e273d8440c2f5f68b99249f41eb7c5be6014c7d88",
+  "commands": [
+    "cd audio/m2",
+    "python -m unittest -v test_render_m2",
+    "python render_m2.py wav"
+  ],
+  "result": "PASS: 1 unittest, 13 subtests, 7.914s; local equivalent source; checkout DNS blocked",
+  "storage": "local session ZIP, not committed binary; regenerate from source",
+  "assets": [
+    {
+      "id": "sfx_footstep_stone",
+      "file": "sfx_footstep_stone.wav",
+      "seconds": 0.32,
+      "loop": false,
+      "peak": 8964,
+      "sha256": "33c185a87bf3fe387364539ca079726be5e6c4b6ac08d8ce1d9f89a3b9c28728",
+      "frames": 15360,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "sfx_footstep_wood",
+      "file": "sfx_footstep_wood.wav",
+      "seconds": 0.32,
+      "loop": false,
+      "peak": 9406,
+      "sha256": "0d7f9b1a2277e7c644441e0b0831307562f4a6b6cbd63703e26c8ab50b507f24",
+      "frames": 15360,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "sfx_amb_forge",
+      "file": "sfx_amb_forge.wav",
+      "seconds": 8,
+      "loop": true,
+      "peak": 11953,
+      "sha256": "6ebeebc9db91bf6703a413c6e397df8039c27d46c83444746e438dd334446b8d",
+      "frames": 384000,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "sfx_combat_hit",
+      "file": "sfx_combat_hit.wav",
+      "seconds": 0.35,
+      "loop": false,
+      "peak": 11769,
+      "sha256": "9b31d4e286f6558c3caabcbe0c64c1386cd28967d1561745d6cf2765c8c5e88f",
+      "frames": 16800,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "sfx_combat_parry",
+      "file": "sfx_combat_parry.wav",
+      "seconds": 0.48,
+      "loop": false,
+      "peak": 13634,
+      "sha256": "6753c02cd1b508763575f271339b8ce1bd36f82965df3d8bebb8b2b994c9fe21",
+      "frames": 23040,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "sfx_weapon_sword",
+      "file": "sfx_weapon_sword.wav",
+      "seconds": 0.45,
+      "loop": false,
+      "peak": 11638,
+      "sha256": "4b4914ea64cac02c850c86b8bd82c649b236b61450d5b9bf56f1c541e211489d",
+      "frames": 21600,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "sfx_combat_telegraph",
+      "file": "sfx_combat_telegraph.wav",
+      "seconds": 0.55,
+      "loop": false,
+      "peak": 8160,
+      "sha256": "59f968b3c01f93dbeb0a2d297b87b7a73bb6877e0e7e534a77bfeac7ae460983",
+      "frames": 26400,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "sfx_discrepancy_pulse",
+      "file": "sfx_discrepancy_pulse.wav",
+      "seconds": 1.2,
+      "loop": false,
+      "peak": 9711,
+      "sha256": "3f506c10ee06d43124a355c8c02aa0dfdab8f4704d432dc9699e4b11e435ce0f",
+      "frames": 57600,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "music_main",
+      "file": "music_main.wav",
+      "seconds": 12,
+      "loop": true,
+      "peak": 10518,
+      "sha256": "fcccae73731e32d7f278e408910166abae42c4e1417caa85109628ded49d0426",
+      "frames": 576000,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "music_kael",
+      "file": "music_kael.wav",
+      "seconds": 12,
+      "loop": true,
+      "peak": 10414,
+      "sha256": "952fa710e4142e88f578dd1e124def2692cd348945c78f04260f6fa7d91e3a88",
+      "frames": 576000,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "music_noah",
+      "file": "music_noah.wav",
+      "seconds": 12,
+      "loop": true,
+      "peak": 10514,
+      "sha256": "73e7b4d4081270ccab17238702ec753ad902e97a58d1bb9a128795fea6405060",
+      "frames": 576000,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "music_abyss_catacombs",
+      "file": "music_abyss_catacombs.wav",
+      "seconds": 12,
+      "loop": true,
+      "peak": 10082,
+      "sha256": "6ff1e9b2d2f70a39fd4d1ee02dd4746f2a2f656d31318c7bcf4c539332347271",
+      "frames": 576000,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    },
+    {
+      "id": "sfx_weather_rain",
+      "file": "sfx_weather_rain.wav",
+      "seconds": 8,
+      "loop": true,
+      "peak": 5803,
+      "sha256": "b42f9c842f420d0f7f222578b8f3f2ed86ffe21eb0253128dca193fa53557c6b",
+      "frames": 384000,
+      "sample_rate": 48000,
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved"
+    }
+  ],
+  "not_run": [
+    "listening",
+    "UE import",
+    "CI execution",
+    "true peak/loudness"
+  ]
+}

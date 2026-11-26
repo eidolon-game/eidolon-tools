@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "source_blob": "41cd470157aae462f3de1b85a4b51dff0c139da4",
+  "test_blob": "5b7ece0fc26ff42eef9b54364175d132044c2667",
+  "test_result": "PASS: 1 unittest, 8 deterministic WAV pairs; local Python; no Unreal import",
+  "assets": [
+    {
+      "id": "ui_confirm",
+      "legacy_id": "sfx.ui.confirm",
+      "file": "ui.confirm.wav",
+      "frames": 8640,
+      "sha256": "298ec504d90fb79cd4ac13d123c937197061d7589b116d57a8347362403467bb",
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved",
+      "storage": "local session export; regenerate with synth_audio.py; not committed binary"
+    },
+    {
+      "id": "ui_error",
+      "legacy_id": "sfx.ui.error",
+      "file": "ui.error.wav",
+      "frames": 14400,
+      "sha256": "8147c07eda188dee56638bbfd72e7710d85535ac2af73203fa8541d2d34eaf56",
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved",
+      "storage": "local session export; regenerate with synth_audio.py; not committed binary"
+    },
+    {
+      "id": "combat_parry",
+      "legacy_id": "sfx.combat.parry",
+      "file": "combat.parry.wav",
+      "frames": 16800,
+      "sha256": "5568485caca7131a5c5b511261bd8fb60ef68935fba23bbd0266914b1a6e0420",
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved",
+      "storage": "local session export; regenerate with synth_audio.py; not committed binary"
+    },
+    {
+      "id": "combat_hit",
+      "legacy_id": "sfx.combat.hit",
+      "file": "combat.hit.wav",
+      "frames": 12000,
+      "sha256": "b9524fea62605f7e2151636b3ca897d7d605bab119a84fe015ec93e7369df813",
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved",
+      "storage": "local session export; regenerate with synth_audio.py; not committed binary"
+    },
+    {
+      "id": "weapon_sword",
+      "legacy_id": "sfx.weapon.sword",
+      "file": "weapon.sword.wav",
+      "frames": 21600,
+      "sha256": "c1869b630592e90bde75e3ba1e78ea2909e31b59321f2f72938da28d31d7c070",
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved",
+      "storage": "local session export; regenerate with synth_audio.py; not committed binary"
+    },
+    {
+      "id": "magic_cast",
+      "legacy_id": "sfx.magic.cast",
+      "file": "magic.cast.wav",
+      "frames": 38400,
+      "sha256": "dea8c8fcafd5018817a883158c29915f35e447c9c4f83021a8a53e0e4352dfb4",
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved",
+      "storage": "local session export; regenerate with synth_audio.py; not committed binary"
+    },
+    {
+      "id": "footstep_stone",
+      "legacy_id": "sfx.footstep.stone",
+      "file": "footstep.stone.wav",
+      "frames": 10560,
+      "sha256": "11989e68981f397b8617ae32331c33e77ca53a46b3c110487edf4f020878a467",
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved",
+      "storage": "local session export; regenerate with synth_audio.py; not committed binary"
+    },
+    {
+      "id": "discrepancy_pulse",
+      "legacy_id": "sfx.discrepancy.pulse",
+      "file": "discrepancy.pulse.wav",
+      "frames": 57600,
+      "sha256": "9696131f630da3558612c52fb3b092174c7f48628a59d55949c70397f1295367",
+      "status": "generated_prototype",
+      "rights": "project original; all rights reserved",
+      "storage": "local session export; regenerate with synth_audio.py; not committed binary"
+    }
+  ]
+}
