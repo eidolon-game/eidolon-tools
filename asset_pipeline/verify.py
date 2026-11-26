@@ -7,7 +7,7 @@ report = json.loads((root / "report.json").read_text())
 assets = registry["assets"]
 ids = [a["id"] for a in assets]
 assert len(ids) == len(set(ids))
-assert all(re.fullmatch(r"asset\.[a-z0-9.]+", i) for i in ids)
+assert all(re.fullmatch(r"[a-z][a-z0-9_]*", i) for i in ids)
 asset = next(a for a in assets if a["id"] == report["id"])
 assert report["status"] == "generated"
 assert report["dimensions_m"] == asset["dimensions_m"]
