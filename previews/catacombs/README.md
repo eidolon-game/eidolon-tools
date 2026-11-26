@@ -20,3 +20,9 @@ The Censer Hagfish is an original static prototype for the Drainage Canals. A Bl
 - [Censer Hagfish render](CenserHagfish.png)
 - [Censer Hagfish GLB](CenserHagfish.glb)
 - [Blender generator](../../scripts/creatures/make_censer_hagfish.py)
+
+The Marrow Ram is a static EIDOLON prototype for the Broken Portico. The Blender 4.3.2 round trip verified 61 mesh parts, 32,460 triangles, UVs and basic materials. The bounding box is approximately 190 × 275 × 158 cm. The cranial wedge and hollow back are designed to read separately during its charge. Rigging and Unreal import are pending.
+
+- [Marrow Ram render](MarrowRam.png)
+- [Marrow Ram GLB](MarrowRam.glb)
+- [Blender generator](../../scripts/creatures/make_marrow_ram.py)
