@@ -48,3 +48,10 @@ The Vault Pincer is an original static prototype for the Counterweight Vault. Bl
 - [Blender generator](../../scripts/creatures/make_vault_pincer.py)
 
 The funerary urn is a reusable EIDOLON prop for the Urn Fork. A Blender 4.3.2 round trip verified five mesh parts and bounds of 55.2 × 55.2 × 79 cm. The basalt lid is separate from the body. Collision, LOD and Unreal import are pending. [Render](funerary-urn/valdris_funerary_urn.png) · [GLB](funerary-urn/valdris_funerary_urn.glb) · [Generator](../../environment/build_funerary_urn.py)
+
+Rootclaw is the Catacombs boss prototype. The Blender round trip verified 129 mesh parts, 38,500 triangles and bounds of about 438 × 314 × 256 cm. The Rootclaw theme is a 21.96-second original prototype with a low ostinato, ritual percussion and a rising brass phrase. Two WAV renders match byte for byte. The rig, collision, music implementation and Unreal integration remain pending.
+
+- [Rootclaw render](Rootclaw.png)
+- [Rootclaw GLB](Rootclaw.glb)
+- [Blender generator](../../scripts/creatures/make_rootclaw.py)
+- [Theme WAV](rootclaw/music_rootclaw_ritual.wav) · [Manifest](rootclaw/manifest.json)

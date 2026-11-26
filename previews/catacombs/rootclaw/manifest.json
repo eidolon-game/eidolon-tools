@@ -1,0 +1,13 @@
+{
+  "cue_id": "music_rootclaw_ritual",
+  "file": "music_rootclaw_ritual.wav",
+  "channels": 2,
+  "sample_rate": 48000,
+  "bits_per_sample": 16,
+  "frames": 1054080,
+  "peak_sample": 17738,
+  "loop": false,
+  "sha256": "a73e758110fab5cbd60c2c2fba6ea651627a4a291569be44f21f36fbefab4441",
+  "source": "Original composition and procedural synthesis. No external recordings.",
+  "status": "prototype"
+}
