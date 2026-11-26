@@ -1,0 +1,41 @@
+{
+  "blender": "4.3.2",
+  "source": "Original Valdris prototypes refined with modeled and procedural surface wear.",
+  "assets": [
+    {
+      "asset": "valdris_recruit_sword.glb",
+      "sha256": "30bb84e7ba8c8fd640952e9d39c19cbc33a4c5479478943721146588945e4e4e",
+      "mesh_objects": 23,
+      "triangles": 10410,
+      "dimensions_m": [
+        0.24571,
+        0.046,
+        1.022
+      ],
+      "pbr_materials": [
+        "sword_forged_steel",
+        "sword_honed_edge",
+        "sword_dark_bronze",
+        "sword_grip_leather"
+      ],
+      "separate_lid_pivot_m": null
+    },
+    {
+      "asset": "valdris_funerary_urn.glb",
+      "sha256": "d370198af930788509b8570724893345bdf1127ce7a917b7e2e2963c539ea32e",
+      "mesh_objects": 5,
+      "triangles": 15928,
+      "dimensions_m": [
+        0.55186,
+        0.55186,
+        0.79
+      ],
+      "pbr_materials": [
+        "urn_cut_basalt",
+        "urn_oxidized_bronze",
+        "urn_weathered_seal"
+      ],
+      "separate_lid_pivot_m": 0.667
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "version": "4.3.2",
+  "models": [
+    {
+      "asset": "buried-forest/RootStalker.glb",
+      "mesh_objects": 161,
+      "materials_with_tangent_normal": 6,
+      "images": 9
+    },
+    {
+      "asset": "buried-forest/branch_terrace_ladder.glb",
+      "mesh_objects": 43,
+      "materials_with_tangent_normal": 8,
+      "images": 21
+    },
+    {
+      "asset": "buried-forest/buried_forest_root_arch.glb",
+      "mesh_objects": 12,
+      "materials_with_tangent_normal": 4,
+      "images": 9
+    },
+    {
+      "asset": "buried-forest/double-clearing/double_clearing_latch.glb",
+      "mesh_objects": 43,
+      "materials_with_tangent_normal": 9,
+      "images": 24
+    },
+    {
+      "asset": "buried-forest/fern-basin/fern_basin_handwheel.glb",
+      "mesh_objects": 57,
+      "materials_with_tangent_normal": 7,
+      "images": 15
+    },
+    {
+      "asset": "buried-forest/hollow-trunk/hollow_trunk_pin.glb",
+      "mesh_objects": 21,
+      "materials_with_tangent_normal": 7,
+      "images": 18
+    },
+    {
+      "asset": "buried-forest/oblique_clearing_overlook.glb",
+      "mesh_objects": 16,
+      "materials_with_tangent_normal": 7,
+      "images": 9
+    },
+    {
+      "asset": "buried-forest/riftroot/riftroot_tangle.glb",
+      "mesh_objects": 59,
+      "materials_with_tangent_normal": 7,
+      "images": 9
+    },
+    {
+      "asset": "buried-forest/rootlet-canal/rootlet_canal_gate.glb",
+      "mesh_objects": 108,
+      "materials_with_tangent_normal": 8,
+      "images": 18
+    },
+    {
+      "asset": "buried-forest/suspended-trunks/suspended_trunks_bridge.glb",
+      "mesh_objects": 113,
+      "materials_with_tangent_normal": 10,
+      "images": 18
+    },
+    {
+      "asset": "buried-forest/vein-overlook/vein_overlook_balcony.glb",
+      "mesh_objects": 37,
+      "materials_with_tangent_normal": 7,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/CenserHagfish.glb",
+      "mesh_objects": 41,
+      "materials_with_tangent_normal": 8,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/LintelMantis.glb",
+      "mesh_objects": 72,
+      "materials_with_tangent_normal": 6,
+      "images": 18
+    },
+    {
+      "asset": "catacombs/MarrowRam.glb",
+      "mesh_objects": 61,
+      "materials_with_tangent_normal": 6,
+      "images": 6
+    },
+    {
+      "asset": "catacombs/MortarLeech.glb",
+      "mesh_objects": 41,
+      "materials_with_tangent_normal": 6,
+      "images": 9
+    },
+    {
+      "asset": "catacombs/OssuaryTick.glb",
+      "mesh_objects": 54,
+      "materials_with_tangent_normal": 4,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/RattleMillipede.glb",
+      "mesh_objects": 220,
+      "materials_with_tangent_normal": 6,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/Rootclaw.glb",
+      "mesh_objects": 129,
+      "materials_with_tangent_normal": 7,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/VaultPincer.glb",
+      "mesh_objects": 70,
+      "materials_with_tangent_normal": 6,
+      "images": 9
+    },
+    {
+      "asset": "catacombs/funerary-urn/valdris_funerary_urn.glb",
+      "mesh_objects": 5,
+      "materials_with_tangent_normal": 3,
+      "images": 9
+    },
+    {
+      "asset": "first-descent/CatacombCrawler.glb",
+      "mesh_objects": 105,
+      "materials_with_tangent_normal": 7,
+      "images": 12
+    },
+    {
+      "asset": "first-descent/valdris_recruit_sword.glb",
+      "mesh_objects": 17,
+      "materials_with_tangent_normal": 5,
+      "images": 9
+    }
+  ]
+}

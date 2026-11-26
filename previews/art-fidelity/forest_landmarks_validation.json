@@ -1,0 +1,50 @@
+{
+  "buried_forest_root_arch": {
+    "source_sha256": "fb356ac363c31a26f12deca7d8ff714e05ad6bf4dec100670791a2bc1a021b4e",
+    "output_sha256": "21548ab985aca08b35c06fafb59744ceb97fcc636dcbaa4e3278671e295902d3",
+    "source_triangles": 1428,
+    "reimport_triangles": 43897,
+    "reimport_objects": 16,
+    "reimport_embedded_images": 6,
+    "clearance_prism_metres": [
+      [
+        -0.8,
+        0.8
+      ],
+      [
+        -1.3,
+        0.68
+      ],
+      [
+        0.015,
+        2.7
+      ]
+    ],
+    "validation": "Blender glTF round trip and authored route prism",
+    "provenance": "Original EIDOLON art and deterministic in-house texture synthesis"
+  },
+  "vein_overlook_balcony": {
+    "source_sha256": "9192a27674e075c25cd8b82b4dfd312f8df7cf1de8370f3072fd78bf5bc7bd33",
+    "output_sha256": "9d28a3f6329918467b125fd09d9cc340c84eaa86fc1d35f621e6195285e8584c",
+    "source_triangles": 3820,
+    "reimport_triangles": 8583,
+    "reimport_objects": 39,
+    "reimport_embedded_images": 6,
+    "clearance_prism_metres": [
+      [
+        -1.5,
+        1.5
+      ],
+      [
+        -1.5,
+        1.58
+      ],
+      [
+        0.963,
+        2.95
+      ]
+    ],
+    "validation": "Blender glTF round trip and authored route prism",
+    "provenance": "Original EIDOLON art and deterministic in-house texture synthesis"
+  }
+}

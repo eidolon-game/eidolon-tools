@@ -1,0 +1,48 @@
+{
+  "blender": "4.3.2",
+  "source": "riftroot_tangle.glb",
+  "source_bounds_m": [
+    [
+      -2.1372029781341553,
+      2.100634813308716
+    ],
+    [
+      -2.5967915058135986,
+      2.374091625213623
+    ],
+    [
+      5.21540641784668e-08,
+      3.0694541931152344
+    ]
+  ],
+  "source_sha256": "3177587c820d252274f4ba4516446bba8a2e433a33803435bb43421ad1e3348f",
+  "glb_sha256": "038e21fefab6fc9caa1a6f06594dda51cba3dccfde48c376e1a56bf47c709b0b",
+  "reimport": {
+    "mesh_parts": 59,
+    "triangles": 34755,
+    "textured_materials": 3,
+    "pivots": [
+      "Rig_Shale_Root_Core",
+      "Rig_Lifting_Rock_Wedge",
+      "Rig_Limb_Front_Left",
+      "Rig_Limb_Front_Right",
+      "Rig_Limb_Rear_Left",
+      "Rig_Limb_Rear_Right"
+    ],
+    "bounds_m": [
+      [
+        -2.1304714679718018,
+        2.1027989387512207
+      ],
+      [
+        -2.593139410018921,
+        2.3791556358337402
+      ],
+      [
+        -0.0435393750667572,
+        3.05845308303833
+      ]
+    ]
+  },
+  "previews_rendered": true
+}

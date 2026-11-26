@@ -1,0 +1,22 @@
+{
+  "asset_id": "abyss_forest_stalker",
+  "blender": "4.3.2",
+  "meshes": 295,
+  "triangles": 103962,
+  "baseline_meshes": 161,
+  "baseline_triangles": 64808,
+  "baseline_bounds_m": [
+    1.9266998767852783,
+    3.6766021251678467,
+    2.9442259557545185
+  ],
+  "reworked_bounds_m": [
+    1.931828260421753,
+    3.6691036224365234,
+    2.941486120223999
+  ],
+  "embedded_maps": 7,
+  "closed_shell_plates": 172,
+  "sha256_glb": "ea59cea19a7f3ebe7ab59f3b6811b829feece9a8f681e4e79e8faf8429281a23",
+  "status": "Blender roundtrip; no Unreal or runtime verification"
+}

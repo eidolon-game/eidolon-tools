@@ -1,0 +1,96 @@
+{
+  "version": "4.3.2",
+  "models": [
+    {
+      "asset": "crawler/CatacombCrawler.glb",
+      "sha256": "9b670d65475e087e5bbc87b87c915f0e68248196b945d9095fed758ff8ee8094",
+      "meshes": 141,
+      "triangles": 30032,
+      "bounds_m": [
+        3.0429160594940186,
+        3.547327160835266,
+        2.0211249850690365
+      ],
+      "embedded_images": 15,
+      "normal_mapped_materials": 11
+    },
+    {
+      "asset": "riftroot/riftroot_tangle.glb",
+      "sha256": "038e21fefab6fc9caa1a6f06594dda51cba3dccfde48c376e1a56bf47c709b0b",
+      "meshes": 59,
+      "triangles": 34755,
+      "bounds_m": [
+        4.376644611358643,
+        5.476343393325806,
+        3.329993985593319
+      ],
+      "embedded_images": 9,
+      "normal_mapped_materials": 3
+    },
+    {
+      "asset": "root-arch/buried_forest_root_arch_refined.glb",
+      "sha256": "21548ab985aca08b35c06fafb59744ceb97fcc636dcbaa4e3278671e295902d3",
+      "meshes": 16,
+      "triangles": 43897,
+      "bounds_m": [
+        3.164960026741028,
+        1.316153347492218,
+        4.193503152579069
+      ],
+      "embedded_images": 6,
+      "normal_mapped_materials": 2
+    },
+    {
+      "asset": "stalker/RootStalker_reworked.glb",
+      "sha256": "ea59cea19a7f3ebe7ab59f3b6811b829feece9a8f681e4e79e8faf8429281a23",
+      "meshes": 295,
+      "triangles": 103962,
+      "bounds_m": [
+        1.931828260421753,
+        3.6691036224365234,
+        2.941486120223999
+      ],
+      "embedded_images": 7,
+      "normal_mapped_materials": 6
+    },
+    {
+      "asset": "valdris/valdris_funerary_urn.glb",
+      "sha256": "d370198af930788509b8570724893345bdf1127ce7a917b7e2e2963c539ea32e",
+      "meshes": 5,
+      "triangles": 15928,
+      "bounds_m": [
+        0.551857054233551,
+        0.551857054233551,
+        0.7900000214576721
+      ],
+      "embedded_images": 9,
+      "normal_mapped_materials": 3
+    },
+    {
+      "asset": "valdris/valdris_recruit_sword.glb",
+      "sha256": "30bb84e7ba8c8fd640952e9d39c19cbc33a4c5479478943721146588945e4e4e",
+      "meshes": 23,
+      "triangles": 10410,
+      "bounds_m": [
+        0.24570950865745544,
+        0.04600000008940697,
+        1.022000029683113
+      ],
+      "embedded_images": 12,
+      "normal_mapped_materials": 4
+    },
+    {
+      "asset": "vein-overlook/vein_overlook_balcony_refined.glb",
+      "sha256": "9d28a3f6329918467b125fd09d9cc340c84eaa86fc1d35f621e6195285e8584c",
+      "meshes": 39,
+      "triangles": 8583,
+      "bounds_m": [
+        5.594693422317505,
+        4.593905448913574,
+        2.132985159754753
+      ],
+      "embedded_images": 6,
+      "normal_mapped_materials": 2
+    }
+  ]
+}

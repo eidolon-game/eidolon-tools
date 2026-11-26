@@ -1,0 +1,183 @@
+{
+  "surface_source": "Original deterministic EIDOLON procedural maps",
+  "resolution": 1024,
+  "status": "surface-review candidates",
+  "models": [
+    {
+      "asset": "buried-forest/RootStalker.glb",
+      "source_sha256": "1b4b96e5ed0582a7ec8cc862b565151da31ba92b94842dae4d5fe5d38b1e1ec3",
+      "output_sha256": "b550cd95f6533979b945935903aec17b45c29999127752ad82fd5cbb582d9f5b",
+      "textured_materials": 6,
+      "completed_uv_primitives": 0,
+      "images": 9
+    },
+    {
+      "asset": "buried-forest/branch_terrace_ladder.glb",
+      "source_sha256": "11fd5665c277922f996c81ee414fc244db81b53c22162f65c09ce74552025ef2",
+      "output_sha256": "82b579f1ce8c92046eb89f695fabd0548399ea4a2219447e2dfea3f98e5960ad",
+      "textured_materials": 8,
+      "completed_uv_primitives": 3,
+      "images": 21
+    },
+    {
+      "asset": "buried-forest/buried_forest_root_arch.glb",
+      "source_sha256": "fb356ac363c31a26f12deca7d8ff714e05ad6bf4dec100670791a2bc1a021b4e",
+      "output_sha256": "8f9ea8e9c7f63f541fe5ee75a9711861e26a86f17c4b78fec665b38091714a2c",
+      "textured_materials": 4,
+      "completed_uv_primitives": 0,
+      "images": 9
+    },
+    {
+      "asset": "buried-forest/double-clearing/double_clearing_latch.glb",
+      "source_sha256": "4b829a18bb39845ea3f1c10df51d58454fe8ddc53a1c1345881fa72a66048c42",
+      "output_sha256": "13c4fedb0038aa1c79a8728ff3e27149b14614f2c011c0bf29c11403e35b5520",
+      "textured_materials": 9,
+      "completed_uv_primitives": 6,
+      "images": 24
+    },
+    {
+      "asset": "buried-forest/fern-basin/fern_basin_handwheel.glb",
+      "source_sha256": "a6afed99a9b2e7ffe0760f258636d4ad5db905042367b6aa098bb2ebcb85ee1b",
+      "output_sha256": "5b8268c3308d726018196004b8462821574860f1b86613d295ce96c50ddede62",
+      "textured_materials": 7,
+      "completed_uv_primitives": 2,
+      "images": 15
+    },
+    {
+      "asset": "buried-forest/hollow-trunk/hollow_trunk_pin.glb",
+      "source_sha256": "0f2bfff16c77c7e46692956bf6dc3796bf0c77f57d3ae6f4bdaedddacb7da193",
+      "output_sha256": "c369369afa71e669d5788971e1441ec5372f24a2029514e9c39cf34873e65ce0",
+      "textured_materials": 7,
+      "completed_uv_primitives": 0,
+      "images": 18
+    },
+    {
+      "asset": "buried-forest/oblique_clearing_overlook.glb",
+      "source_sha256": "c5f763cd29d5cf058c84c99a83c2dd1b8c323f8c27b7cfb2487af13fb37b111d",
+      "output_sha256": "95cd1473cad0383296d3c6ebbd5b7472cf5484591bcd4f3746260f50cab3bd06",
+      "textured_materials": 7,
+      "completed_uv_primitives": 28,
+      "images": 9
+    },
+    {
+      "asset": "buried-forest/riftroot/riftroot_tangle.glb",
+      "source_sha256": "3177587c820d252274f4ba4516446bba8a2e433a33803435bb43421ad1e3348f",
+      "output_sha256": "d4e76d74d00074ba11c1e031727c72718508b18ea5492574eb5bed83be418138",
+      "textured_materials": 7,
+      "completed_uv_primitives": 2,
+      "images": 9
+    },
+    {
+      "asset": "buried-forest/rootlet-canal/rootlet_canal_gate.glb",
+      "source_sha256": "8f536000e267ff05516a589dda21a0b6dc1f67d9e4741a429c4a9e9e99259900",
+      "output_sha256": "d77df10c90963aef3bd9a41c2d4804de33c2a57a899b5f90b698fd71489f4e41",
+      "textured_materials": 8,
+      "completed_uv_primitives": 6,
+      "images": 18
+    },
+    {
+      "asset": "buried-forest/suspended-trunks/suspended_trunks_bridge.glb",
+      "source_sha256": "680fb20ccae0d06887a259ae45616eb57fa2143392e4da0e3be00d7807faa6c4",
+      "output_sha256": "79cb68f38eece97874fae7b1425a5d144107ce844c8e1f387820788e84cc781a",
+      "textured_materials": 10,
+      "completed_uv_primitives": 2,
+      "images": 18
+    },
+    {
+      "asset": "buried-forest/vein-overlook/vein_overlook_balcony.glb",
+      "source_sha256": "9192a27674e075c25cd8b82b4dfd312f8df7cf1de8370f3072fd78bf5bc7bd33",
+      "output_sha256": "cce23f73cb28ceb70f157ae62f12ca5c4e7da55a5ee242f3292ce96fee22dac8",
+      "textured_materials": 7,
+      "completed_uv_primitives": 3,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/CenserHagfish.glb",
+      "source_sha256": "38011db8dee49e343bd85b5e7ed033f4a709ccd8d48733adc24fb6868761f220",
+      "output_sha256": "3ae0de7f094f023cfa9b0076007dbf20de84440654af41578b5a889f02f172d1",
+      "textured_materials": 8,
+      "completed_uv_primitives": 0,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/LintelMantis.glb",
+      "source_sha256": "80f1e8c78442757051d1e6d9ccf2fdd68dcb9797371454b41df0fb25e2dbdaa5",
+      "output_sha256": "9957b08df996f96345f0493838a3a40b4d80cde2d33f1c167dc823c2bd3c1a04",
+      "textured_materials": 6,
+      "completed_uv_primitives": 0,
+      "images": 18
+    },
+    {
+      "asset": "catacombs/MarrowRam.glb",
+      "source_sha256": "d140a4a5f777e486d5b8f9a760b8d9576dd04d4915411af4981350ee5dd35481",
+      "output_sha256": "b2f8dd3a9fa2010086d35c5c030166c6865bfc0823f8ab37bdb67cd59ebeb044",
+      "textured_materials": 6,
+      "completed_uv_primitives": 0,
+      "images": 6
+    },
+    {
+      "asset": "catacombs/MortarLeech.glb",
+      "source_sha256": "5e739754eeac7e73be1527fa943293d86fd9145d34fabf739a080dd93b0860f1",
+      "output_sha256": "59bb495560cf6a3c10f2bbf352a662dec4f7f7945355d48b360097b5c4fe9fb3",
+      "textured_materials": 6,
+      "completed_uv_primitives": 0,
+      "images": 9
+    },
+    {
+      "asset": "catacombs/OssuaryTick.glb",
+      "source_sha256": "d2a10d9191f57d4e306828377fb2545c54167f910c2b24b05f224a04b728afee",
+      "output_sha256": "aae6754e673499e0cb6bd8b97d34df85195ad637687ce1098938f0ce4a1d47de",
+      "textured_materials": 4,
+      "completed_uv_primitives": 0,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/RattleMillipede.glb",
+      "source_sha256": "45dd5a3f4ea539a662943d0cb7c049577013e49c693a8ea4a27f82294dd98e44",
+      "output_sha256": "22ec182d697abbd8d8b36674c88b5c80a81d45806488db29f35804b803129480",
+      "textured_materials": 6,
+      "completed_uv_primitives": 0,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/Rootclaw.glb",
+      "source_sha256": "df979e7cf4c8b1ee013ab0a0bcadac77070ae4299f7be32174a29c9c304d47d8",
+      "output_sha256": "3f5b9e3526c7444f95545253b4b8f84f862d121d6f4b94126ac4a280507e4d9f",
+      "textured_materials": 7,
+      "completed_uv_primitives": 0,
+      "images": 12
+    },
+    {
+      "asset": "catacombs/VaultPincer.glb",
+      "source_sha256": "b962ebeb52e2e17c91de106fb5b9878f964ac9a76d4fcd4cd4e28b36f0e7b8a6",
+      "output_sha256": "8d9da0687e460f342208193671293434a102f3153326e91585f6095eed32e279",
+      "textured_materials": 6,
+      "completed_uv_primitives": 0,
+      "images": 9
+    },
+    {
+      "asset": "catacombs/funerary-urn/valdris_funerary_urn.glb",
+      "source_sha256": "6108a8c8a870a7a7ed959eadb9327c8df85daae292faef1842b58fd45d284049",
+      "output_sha256": "68098e625711b65e6f408f71fe01d73993a081401a5e82bbd9f3a8a4e9e14693",
+      "textured_materials": 3,
+      "completed_uv_primitives": 1,
+      "images": 9
+    },
+    {
+      "asset": "first-descent/CatacombCrawler.glb",
+      "source_sha256": "770c594d89feefd0c1c2595c1ca050a4cdddcf8e62e9dd2ccadb80b3759f3f76",
+      "output_sha256": "151713f2e4b816e9a3976d10e85be4b9a4e2f3a8f1f82b2967da3f3190a196f1",
+      "textured_materials": 7,
+      "completed_uv_primitives": 0,
+      "images": 12
+    },
+    {
+      "asset": "first-descent/valdris_recruit_sword.glb",
+      "source_sha256": "3ba4b310d5c87564e0ddd4a37c27ead011017acc6723355b5d48a127f8560330",
+      "output_sha256": "e3a4141d5f70cb70e7b30ffd334486f4f41e289347b12658a4e4a54a9ed3eafa",
+      "textured_materials": 5,
+      "completed_uv_primitives": 2,
+      "images": 9
+    }
+  ]
+}
